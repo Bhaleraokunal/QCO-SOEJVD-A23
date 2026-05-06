@@ -3,8 +3,10 @@ package synchronization;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ImplicitWait {
 
@@ -21,6 +23,8 @@ public class ImplicitWait {
 		driver.findElement(By.cssSelector("[id='txt1']")).sendKeys("Hellooooooooo");
 		
 		driver.quit();
+		
+		
 		
 	}
 }
