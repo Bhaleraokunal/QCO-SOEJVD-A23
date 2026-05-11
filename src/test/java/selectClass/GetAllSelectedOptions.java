@@ -27,9 +27,6 @@ public class GetAllSelectedOptions {
 				sel.selectByIndex(i);
 			}
 		}
-		
-		
-		
 		List<WebElement> allSelected = sel.getAllSelectedOptions();
 		
 		for (int i = 0; i < allSelected.size(); i++) {
